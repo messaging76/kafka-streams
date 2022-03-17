@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "aa048a91-81db-41cd-82d0-4331149e1c3f",
+		"name": "kstream-app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"key\": \"keyTest2\",\n    \"value\": {\n        \"dataElement1\": \"ae5\",\n        \"dataElement2\": \"be3\",\n        \"timeStamp\": \"2022-03-16 19:37:25\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/publishMessage",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"publishMessage"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
